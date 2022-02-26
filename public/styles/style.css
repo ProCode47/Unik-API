@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 62.5em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  html {
+    font-size: 54%;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  html {
+    font-size: 51%;
+  }
+}
+
+@media only screen and (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .text-sm {
+    font-size: 2.2rem !important;
+  }
+}
+
+body {
+  background-color: #041c32;
+  color: white;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+
+header button {
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #ecb365;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+header button .fa-star {
+  color: #151718;
+}
+
+.blob {
+  position: absolute;
+  top: 0%;
+  left: -10%;
+  width: 25vw;
+  z-index: -10;
+}
+
+.blob2 {
+  position: absolute;
+  bottom: -3%;
+  right: -6%;
+  width: 18vw;
+  z-index: -10;
+}
+
+.blob3 {
+  position: absolute;
+  bottom: -2%;
+  right: -6%;
+  width: 15vw;
+  z-index: -10;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80vh;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+main p {
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 15px;
+}
+
+main figure {
+  width: 80%;
+}
+
+main figure img {
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=style.css.map */
