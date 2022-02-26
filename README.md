@@ -1,6 +1,5 @@
-# UUID Generator 🚀⚡
-### An API that generates UUIDs and timestamps as key-value pairs originally assigned as a Backend Test for Cowrywise Recuriting built out in Node.js 😎. The API features include:
-### ✔ Generating UUID and timestamps as key-value pairs
-### ✔ Generating new key-value pairs whenever the API is called
-### ✔ Retrieving all previously generated entries from the DB per call
-### ✔ Sorting the retrieved data chronologically i.e newest to oldest
+# Unik API 🚀⚡
+![screenshot](screenshot.png)
+### An API that generates UUIDs and pseudonyms simultaneously for developer consumption 😋
+### You want to generate unique identifiers but you don't wanna go through the stress of installation of packages? Unik API is literally "a call" away! 😎
+### Ever wanted to generate random names or monikers for whatsoever reason? Unik API is excatly what the doctor ordered 🚀⚡
