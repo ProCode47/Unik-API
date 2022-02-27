@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />  </head>
   <body>
+    <div class="spinner-wrapper" id="loader"><div class="spinner">
+      <div class="double-bounce1"></div>
+      <div class="double-bounce2"></div>
+    </div></div>
+    
     <header>
       <nav>
         <button>  <i class="fa fa-star-o"></i> On Github <i class="fa fa-github "></i></button>
@@ -25,6 +30,13 @@
     <footer class="footer-sm">
       <p>developed with <i class="fa fa-heart"></i> by <a href="https://github.com/procode47"> shadowbytee</a></p> 
     </footer>
+
+    <script>
+      var loader = document.getElementById("loader");
+      window.addEventListener("load",()=>{
+        loader.style.display = "none"
+      })
+    </script>
 
   </body>
 </html>
