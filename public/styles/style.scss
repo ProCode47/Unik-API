@@ -14,65 +14,59 @@ header {
   justify-content: flex-end;
   margin-bottom: 2rem;
   button {
-      .fa-star{
-         color: #151718;
-      }
+    .fa-star {
+      color: #151718;
+    }
     border: none;
     outline: none;
     font-size: 1.8rem;
     width: fit-content;
     height: fit-content;
-    background-color:$secondary;
+    background-color: $secondary;
     padding: 10px;
     border-radius: 5px;
   }
-}
-.blob {
-  position: absolute;
-  top: 0%;
-  left: -10%;
-  width: 25vw;
-  z-index: -10;
-}
-.blob2 {
-  position: absolute;
-  bottom: -3%;
-  right: -6%;
-  width: 18vw;
-  z-index: -10;
-}
-.blob3 {
-  position: absolute;
-  bottom: -2%;
-  right: -6%;
-  width: 15vw;
-  z-index: -10;
 }
 
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 80vh;
 
-  h1{
+  h1 {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 1.5rem;
+    margin: 0px;
   }
   p {
     margin-bottom: 3rem;
     text-align: center;
-    font-size: 1.5rem;
-    line-height: 15px;
+    font-size: 1.65rem;
+    padding: 10px;
   }
 
   figure {
-    width: 80%;
+    width: 95%;
     img {
       width: 100%;
       height: auto;
     }
+  }
+}
+footer {
+  background-color: #04293A;
+  color: #dde2e9;
+  display: flex;
+  height: fit-content;
+  padding: 15px;
+  justify-content: center;
+  margin-top: 4rem;
+  a {
+    text-decoration: none;
+    color: $secondary;
+  }
+  .fa-heart {
+    color: $secondary;
   }
 }

@@ -46,7 +46,6 @@ body {
   font-size: 1.5rem;
   line-height: 1.6;
   overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 a {
@@ -60,6 +59,14 @@ ul {
 @media only screen and (max-width: 992px) {
   .text-sm {
     font-size: 2.2rem !important;
+  }
+  .footer-sm {
+    position: fixed;
+    bottom: 0;
+    width: 100% !important;
+  }
+  .figure-sm {
+    height: 50vh !important;
   }
 }
 
@@ -98,30 +105,6 @@ header button .fa-star {
   color: #151718;
 }
 
-.blob {
-  position: absolute;
-  top: 0%;
-  left: -10%;
-  width: 25vw;
-  z-index: -10;
-}
-
-.blob2 {
-  position: absolute;
-  bottom: -3%;
-  right: -6%;
-  width: 18vw;
-  z-index: -10;
-}
-
-.blob3 {
-  position: absolute;
-  bottom: -2%;
-  right: -6%;
-  width: 15vw;
-  z-index: -10;
-}
-
 main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -130,34 +113,56 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 80vh;
 }
 
 main h1 {
   text-align: center;
   font-size: 3rem;
   margin-bottom: 1.5rem;
+  margin: 0px;
 }
 
 main p {
   margin-bottom: 3rem;
   text-align: center;
-  font-size: 1.5rem;
-  line-height: 15px;
+  font-size: 1.65rem;
+  padding: 10px;
 }
 
 main figure {
-  width: 80%;
+  width: 95%;
 }
 
 main figure img {
   width: 100%;
   height: auto;
+}
+
+footer {
+  background-color: #04293A;
+  color: #dde2e9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 4rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ecb365;
+}
+
+footer .fa-heart {
+  color: #ecb365;
 }
 /*# sourceMappingURL=style.css.map */
