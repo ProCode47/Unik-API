@@ -138,7 +138,7 @@ main figure {
 
 main figure img {
   width: 100%;
-  height: 50%;
+  height: auto;
 }
 
 footer {
