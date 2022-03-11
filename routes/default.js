@@ -2,25 +2,24 @@ const express = require("express");
 const router = express.Router();
 const Entry = require("../models/entry");
 const { v4: uuidv4 } = require("uuid");
-const time = new Date();
-const stamp = JSON.stringify(time);
-const timestamp = stamp.replace(".", ":");
+
 
 router.get("/generate", (req, res) => {
-  Entry.collection.insertOne(
-    {
-      [timestamp]: uuidv4(),
-    },
-    function (err, res) {
-      if (err) {
-        console.log(err);
-      }
-    }
-  );
+  const entry = new Entry({
+    uuid: uuidv4(),
+    pseudonym: runam
+  });
+  entry
+    .save()
+    .then((data) => {
+      // res.json(data);
+    })
+    .catch((err) => {
+      res.json({ message: err });
+    });
   Entry.find()
       .then((entries) => {
-        const sortedEntries = entries.reverse()
-      res.send({ entries:sortedEntries });
+      res.json(entries);
     })
     .catch((err) => {
       throw err;
