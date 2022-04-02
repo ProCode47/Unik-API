@@ -13,7 +13,9 @@ header {
   padding: 20px;
   justify-content: flex-end;
   margin-bottom: 2rem;
-  button {
+  a
+   {
+     color: black;
     .fa-star {
       color: #151718;
     }
@@ -48,8 +50,11 @@ main {
 
   figure {
     width: 80%;
+    display: flex;
+    justify-content: center;
     img {
       width: 90%;
+      margin: 0px;
     }
   }
 }

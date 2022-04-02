@@ -86,7 +86,8 @@ header {
   margin-bottom: 2rem;
 }
 
-header button {
+header a {
+  color: black;
   border: none;
   outline: none;
   font-size: 1.8rem;
@@ -101,7 +102,7 @@ header button {
   border-radius: 5px;
 }
 
-header button .fa-star {
+header a .fa-star {
   color: #151718;
 }
 
@@ -133,12 +134,18 @@ main p {
 }
 
 main figure {
-  width: 95%;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 main figure img {
-  width: 100%;
-  height: auto;
+  width: 90%;
+  margin: 0px;
 }
 
 footer {
