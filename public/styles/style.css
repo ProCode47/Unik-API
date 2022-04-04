@@ -66,7 +66,7 @@ ul {
     width: 100% !important;
   }
   .figure-sm {
-    height: 50vh !important;
+    height: auto !important;
   }
 }
 
@@ -145,7 +145,7 @@ main figure {
 
 main figure img {
   width: 90%;
-  margin: 0px;
+  height: auto;
 }
 
 footer {
